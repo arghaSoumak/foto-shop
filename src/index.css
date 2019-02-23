@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style-type: none;
+}
+
+body,
+button {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background-color: #fafafa;
+}
+
+/* utils */
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#logo {
+	height: 40px;
+	margin: 15px auto;
+	display: block;
+}
+/* image */
+.image {
+	margin: 0 auto 20px;
+	padding: 0 20px;
+}
+
+.image img {
+	height: auto;
+	width: 100%;
+}
+
+/*filters*/
+.filters {
+	overflow-x: auto;
+	display: flex;
+	padding: 10px 10px 0;
+}
+.filters li {
+	margin: 10px;
+}
+.filters li h1 {
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+}
+.filters li .filter {
+	height: 120px;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: 300;
+	margin: 20px 0;
+}
+
+/*edit*/
+
+.range {
+	padding: 0 20px;
+	text-transform: capitalize;
+	height: 280px;
+	overflow: auto;
+}
+
+.range .control {
+	margin: 10px 0;
+}
+
+.range h1 {
+	font-size: 15px;
+	font-weight: 500;
+}
+.slider {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 2px;
+	border-radius: 5px;
+	background: #adadad;
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: 0.2s;
+	transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #c91331;
+	cursor: grabbing;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+	border: 3px solid #ffcbcb7a;
+}
+
+.slider::-moz-range-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #c91331;
+	cursor: grabbing;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+	border: 3px solid #ffcbcb7a;
+}
+
+.footer {
+	font-size: 13px;
+	text-align: center;
+	margin: 15px 0;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer img {
+	height: 20px;
+	margin-left: 5px;
+}
