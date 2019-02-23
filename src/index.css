@@ -106,7 +106,18 @@ h2 {
 }
 
 .slider::-moz-range-thumb {
-	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #c91331;
+	cursor: grabbing;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+	border: 3px solid #ffcbcb7a;
+}
+.slider::-ms-tooltip {
+	-ms-appearance: none;
 	appearance: none;
 	width: 15px;
 	height: 15px;
